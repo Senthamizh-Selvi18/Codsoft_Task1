@@ -78,7 +78,7 @@ nav {
   width: 250px;
   aspect-ratio:1/1;
   background: url("photo.jpg") no-repeat center center / cover;
-  border-radius: 15px;
+  border-radius: 25px;
   box-shadow: 0 12px 25px rgba(0, 255, 255, 0.7), 0 0 30px rgba(0, 255, 255, 0.5);
   animation: float 4s ease-in-out infinite;
   transition: transform 0.3s ease;
@@ -203,6 +203,14 @@ p {
   letter-spacing: 1px;
 }
 @media(max-width: 768px) {
+  .logo{
+    width:100px;
+  }
+  .home-img{
+    width:150px;
+    height:150px;
+    border-radius:25px;
+  }
   .home {
     flex-direction: column;
   }
