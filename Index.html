@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Task1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+    <div class="logo">
+        <img class="logo" src="logo.png" alt="">
+      </div>
+      <ul class="nav-links">
+        <li><a id="nav-home" onclick="showSection('home')">Home</a></li>
+        <li><a id="nav-about" onclick="showSection('about')">About</a></li>
+        <li><a id="nav-skills" onclick="showSection('skills')">Skills</a></li>
+        <li><a id="nav-contact" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header> 
+  <main>
+    <section id="home" class="section active">
+      <div class="home-txt">
+        <div class="text">
+          <h2>Hii, I'm </h2>
+          <h1 id="name">SENTHAMIZH SELVI I</h1>
+          <h2>MERN STACK DEVELOPER.</h2>
+          <p>Engineer by degree,Innovator by passion!!!.</p> 
+          <button class="more-btn" onclick="showSection('about')">More About Me</button>
+        </div>
+        <div class="home-img" id="img"></div>
+      </div>
+    </section>
+    <section id="about" class="section animated-text">
+  <div class="about-container">
+    <div class="about-text">
+      <h1>About Me</h1>
+      <p>I'm Senthamizh Selvi, Second-year CSE student and a MERN Stack Developer with a passion for building modern, responsive web applications. I enjoy turning ideas into real projects using MongoDB, Express, React, and Node.js, and I'm always exploring new ways to improve my development skills.</p>
+    </div>
+    
+  </div>
+</section>
+
+<section id="skills" class="section animated-text">
+  <h1>My Skills</h1>
+  <div class="horizontal-list skills-list">
+    <span class="skill-item" style="animation-delay: 0.3s">HTML</span>
+    <span class="skill-item" style="animation-delay: 0.6s">CSS</span>
+    <span class="skill-item" style="animation-delay: 0.9s">JavaScript</span>
+    <span class="skill-item" style="animation-delay: 1.2s">React</span>
+    <span class="skill-item" style="animation-delay: 1.5s">MongoDB</span>
+    <span class="skill-item" style="animation-delay: 1.8s">Node.js</span>
+    <span class="skill-item" style="animation-delay: 2.1s">Diploma in Computer Applications (DCA)</span>
+  </div>
+</section>
+
+<section id="contact" class="section animated-text">
+  <h1>Contact Me</h1>
+  <div class="contact-icons">
+    <span class="contact-icon"><img src="email.png" alt="" width="24"> senthamizh7679@gmail.com</span>
+    <span class="contact-icon"><img src="LinkedIn.png" alt="LinkedIn" width="24">https://www.linkedin.com/in/senthamizh-selvi-i-298451359?</span>
+    <span class="contact-icon"><img src="GitHub.png" alt="GitHub" width="24"> https://github.com/Senthamizh-Selvi18</span>
+  </div>
+</section>
+   <footer class="last">
+  <div class="last-text">
+    <p>&copy; 2025 <strong>Senthamizh Selvi</strong> — MERN Stack Developer</p>
+  </div>
+</footer> 
+        
+
+  </main> 
+  <script src="script.js"></script>
+</body>
+  </html>
+                                 
